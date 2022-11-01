@@ -1,5 +1,7 @@
 .image_resize{
-    width: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 400%;
     height: 200px;
 }
 
