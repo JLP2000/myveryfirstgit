@@ -4,6 +4,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
     <link rel="stylesheet" href="css/styles.css">
     <title>Premier League</title>
 </head>
@@ -11,17 +13,96 @@
     <img src="/images/logo.png" alt="Premier League Logo" id="premlogo">
 
     <p></p>
-    <nav>
+    <nav class="navbar-default p-1 bg-white justify-content-between">
+
         <a href="">Home</a>
         <a href="" style="font-weight:bold">Players</a>
-        <a href="">Teams</a>
+
+        <div class="dropdown">
+            <a href="">Teams</a>
+            <div class="dropdown_content">
+                <a href="#">Arsenal FC</a>
+                <a href="#">Chelsea FC</a>
+                <a href="#">Liverpool FC</a>
+                <a href="#">Manchester City FC</a>
+                <a href="#">Manchester United FC</a>
+                <a href="#">Tottenham Hotspur FC</a>
+            </div>
+        </div>
         <a href="">About Us</a>
     </nav>
 
-    <div class="pagebackground">
+    <div>
          <h2>Top Premier League Players</h2>
-
+        
          <div class="container">
+            <div class="row row-cols-lg-3 row-cols-md-2 rows-cols-s-1 row-cols-xs-1 p-2 g-2">
+                <div class="col-sm align-items-stretch d-flex cols-xs-1 cols-s-1 cols-md-2 cols-lg-3">
+                    <div class="card text-center shadow-lg">
+                        <div class="card-body text-center">
+                            <h3 class="card-header bg-dark">Alan Shearer</h2>
+                                <img style="width:150px; height:150px" src="/images/shearer.jpeg" alt="Alan Shearer" class="card-img-top img-thumbnail">
+                        
+                                <details class="card-text text-dark">
+                                    <summary>Stats:</summary>
+                                        <p>Appearances: 441</p>
+                                        <p>Goals: 260</p>
+                                        <p>Assists: 64</p>
+                                </details>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-sm d-flex cols-xs-1 cols-s-1 cols-md-2 cols-lg-3">
+                    <div class="card text-center shadow-lg">
+                        <div class="card-body text-center">
+                            <h3 class="card-header bg-danger">Thierry Henry</h2>
+                                <img style="width:150px; height:150px" src="/images/henry.jpeg" alt="Henry" class="card-img-top img-thumbnail">
+                        
+                                <details class="card-text text-dark">
+                                    <summary>Stats:</summary>
+                                    <p>Appearances: 258</p>
+                                    <p>Goals: 175</p>
+                                    <p>Assists: 74</p>
+                                </details>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-sm d-flex cols-xs-1 cols-s-1 cols-md-2 cols-lg-3">
+                    <div class="card text-center shadow-lg">
+                        <div class="card-body text-center">
+                            <h4 class="card-header bg-dark">Cristiano Ronaldo</h4>
+                                <img style="width:150px; height:150px" src="/images/ronaldo.jpeg" alt="Cristiano Ronaldo" class="card-img-top img-thumbnail">
+                        
+                                <details class="card-text text-dark">
+                                    <summary>Stats:</summary>
+                                        <p>Appearances: 235</p>
+                                        <p>Goals: 103</p>
+                                        <p>Assists: 37</p>
+                                </details>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-sm d-flex cols-xs-1 cols-s-1 cols-md-2 cols-lg-3">
+                    <div class="card text-center shadow-lg">
+                        <div class="card-body text-center">
+                            <h4 class="card-header bg-primary">Frank Lampard</h4>
+                                <img style="width:150px; height:150px" src="/images/lampard.jpeg" alt="Frank Lampard" class="card-img-top img-thumbnail">
+                        
+                                <details class="card-text text-dark">
+                                    <summary>Stats:</summary>
+                                        <p>Appearances: 609</p>
+                                        <p>Goals: 177</p>
+                                        <p>Assists: 102</p>
+                                </details>
+                        </div>
+                    </div>
+                </div>
+            </div>
+         </div>
+         <!-- <div class="container">
             <div class="card">
                 <h3>Alan Shearer</h2>
                 <img src="/images/shearer.jpeg" alt="Alan Shearer" class="image_resize">
@@ -113,10 +194,8 @@
                         <p>Assists: 102</p>
                 </details>
             </div>
-         </div>
+         </div> -->
     </div>
-
-    <a href="index2.html" class = "nextpage"> Next page</a>
 
 </body>
 </html>
