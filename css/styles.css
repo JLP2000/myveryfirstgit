@@ -5,17 +5,6 @@
     height: 150px;
 }
 
-.nextpage{
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: 20px;
-    font-weight: bold;
-    border: 3px solid black;
-    border-radius: 5px;
-    background-color: black;
-    color: lightgoldenrodyellow;
-    float: right;
-}
-
 #premlogo{
     display: block;
     margin-left: auto;
@@ -26,25 +15,6 @@
     background-color: white;
     border-radius: 25px;
     padding: 10px;
-}
-
-table, th, td {
-    text-align: center;
-    border: 1px solid black;
-    border-collapse: collapse;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-h1{
-    text-align: center;
-    font-size: 60px;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    background-color: black;
-    color: antiquewhite;
-    outline-style: double;
-    outline-color: gray;
-    outline-width: 5px;
 }
 
 h2, summary{
@@ -58,19 +28,16 @@ h3{
     font-weight: lighter;
 }
 
-body{
+/* body{
     background-image: url(/images/background.jpeg);
     background-size: 100% 100%;
     text-align: center;
     color: white;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-}
+} */
 
-body{
-    background-color: lightgoldenrodyellow;
-}
 
-.card{
+/* .card{
     background-color: white;
     color: black;
     box-shadow: 5px 5px 9px black;
@@ -79,30 +46,57 @@ body{
     text-align: center;
     padding: 5px;
 
-}
+} */
 
 a:hover, details:hover{
-    background-color: lightgray;
+    background-color: rgba(211, 211, 211, 0.7);
+    border-radius: 5px;
 }
 
-.container{
+/* .container{
     display: flex;
     flex-direction: row;
     justify-content: center;
-}
+} */
 
 ul, li{
     list-style: none;
 }
 
-nav{
+/* nav{
+    display:inline;
     background-color: white;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-size: 20px;
     text-align: center;
+} */
+
+
+
+.dropdown{
+    position: relative;
+    display: inline-block;
 }
 
-a{
-    padding-right: 10px;
-    
+.dropdown_content{
+    display: none;
+    position: absolute;
+    background-color: white;
+    min-width: 160px;
+    font-size: 15px;
 }
+
+.dropdown:hover .dropdown_content {
+    display: block;
+    padding: 5px
+  }
+
+  .dropdown_content a{
+    display: block;
+    padding: 4px 2px;
+    text-align: left;
+  }  
+
+  .overlap{
+    height:90px;
+  }
