@@ -9,72 +9,122 @@
     <link rel="stylesheet" href="css/styles.css">
     <title>Premier League</title>
 </head>
-<body class="bg-image text-white" style="background-image: url(images/background.jpeg); background-size: 100% 100%;">
-    <img src="/images/logo.png" alt="Premier League Logo" id="premlogo">
+<body class="text-white">
 
-    <p></p>
-    <nav class="navbar-default p-1 bg-white justify-content-between text-center" style="">
+    <section>
+        <div class="trim"><img src="/images/background.jpeg" alt="Background" class="imtip"></div>
+        <img src="/images/logo.png" alt="Premier League Logo" id="premlogo">
+    </section>
 
+    <nav class="navbar-default justify-content-between text-center" style="background-color:rgb(139,0,139); font-size: 25px;">
         <a class="px-3" href="">Home</a>
         <a class="px-3" href="index.html">Players</a>
 
         <div class="dropdown">
-            <a class="px-3" style="font-weight:bold" href="teams.html">Teams</a>
+            <a class="px-3" href="teams.html" style="font-weight:bold">Teams</a>
             <div class="dropdown_content">
                 <a href="#">Arsenal FC</a>
-                <a href="#" style="font-weight:bold">Chelsea FC</a>
+                <a href="chelsea.html">Chelsea FC</a>
                 <a href="#">Liverpool FC</a>
                 <a href="#">Manchester City FC</a>
                 <a href="#">Manchester United FC</a>
                 <a href="#">Tottenham Hotspur FC</a>
             </div>
         </div>
+
         <a class="px-3" href="">Help</a>
+
     </nav>
+    <div class="p-1" style="background-image: url(/images/stamfordbridge.jpg); background-size: cover">
+         <h1 class="clubheader d-inline"><img src="images/chelsea.png" alt="Chelsea" style="width: 20%; height: 15%" >Chelsea FC</h1>
 
-    <div>
-        <h1 class="bg-light text-dark text-center py-4" style="width:500px; margin-left:auto; margin-right:auto; margin-top:20px"><img src="images/chelsea.png" alt="Chelsea" style="width: 25%; height: 25%" >Chelsea FC</h1>
+
+        <h1 class="d-flex" style="float:right; text-decoration: none;">Stamford Bridge</h1>
+
+
+         
+
+         <div class="container d-inline">
+            <h1>About</h1>
+            <p class="text_bg" style="font-size:20px">Across nine chapters, the story of the Blues (or the Pensioners as the team was originally nicknamed) is revealed in words, images and videos - from the dreams of the founders realised in the best stadium in the land, to drawing big crowds with big stars, to modernising the club and winning trophies before a financial collapse and memorable recovery, and then the upward path to the current era.</p>
+        </div>
     </div>
 
-    <div class="container">
-        <h1 class="py-3 px- text-center">About</h2>
-        <p class="h5 px-5 text-center">Across nine chapters, the story of the Blues (or the Pensioners as the team was originally nicknamed) is revealed in words, images and videos - from the dreams of the founders realised in the best stadium in the land, to drawing big crowds with big stars, to modernising the club and winning trophies before a financial collapse and memorable recovery, and then the upward path to the current era.</p>
-    </div>
+    <div class="container-fluid d-flex">
+        <div class="row d-flex">
+            
+            <div class="col-4 py-4 justify-content-start">
+                <a class="btn btn-primary btn-lg" style="max-height:100%; width: 100%; margin-right: 300px" href="https://www.chelseafc.com" role="button">Visit the official Chelsea FC Website</a>
 
-    <div class="container">
-        <h1 class="py-3 px- text-center ">Players</h2>
-        <table class="table bg-primary text-white">
-            <thead>
-                <th scope="col">Shirt No.</th>
-                <th scope="col" class="text-center">Player Name</th>
-                <th scope="col" class="text-center">Position</th>
-            </thead>
-            <tbody class="bg-white text-dark">
-                <tr>
-                    <th scope="row" class="h1 text-center align-middle">1</th>
-                    <td class="text-center h2"><img src="images/kepa.png" alt="kepa" style=" width: 10%; height: 10%">Kepa Arrizabalaga</td>
-                    <td class="text-center h2 align-middle">GK</td>
-                </tr>
-                <tr>
-                    <th scope="row" class="h1 text-center align-middle">6</th>
-                    <td class="text-center h2"><img src="images/silva.png" alt="silva" style=" width: 10%; height: 10%">Thiago Silva</td>
-                    <td class="text-center h2 align-middle">CB</td>
-                </tr>
-                <tr>
-                    <th scope="row" class="h1 text-center align-middle">19</th>
-                    <td class="text-center h2"><img src="images/mount.png" alt="mount" style=" width: 10%; height: 10%">Mason Mount</td>
-                    <td class="text-center h2 align-middle">CM</td>
-                </tr>
-                <tr>
-                    <th scope="row" class="h1 text-center align-middle">29</th>
-                    <td class="text-center h2"><img src="images/havertz.png" alt="kai" style=" width: 10%; height: 10%">Kai Havertz</td>
-                    <td class="text-center h2 align-middle">ST</td>
-                </tr>
-            </tbody>
-        </table>
-    </div>
+                <div class="col p-3">
+                    <div class="row">
+                        <div class="col">
+                            <div class="card text-center shadow-lg">
+                                <div class="card-body text-center">
+                                    <h3 class="card-header bg-dark">Home Kit</h2>
+                                    <img src="images/chelseahomekit.webp" alt="Chelsea Home Kit" style="width:50%; height: 50%">
+                                </div>
+                            </div>
+                        </div>
 
-    
+                        <div class="col">
+                            <div class="card text-center shadow-lg">
+                                <div class="card-body text-center">
+                                    <h3 class="card-header bg-dark">Away Kit</h2>
+                                    <img src="images/chelseaawaykit.webp" alt="Chelsea Away Kit" style="width:50%; height: 50%">
+                                </div>
+                            </div>
+                        </div>
+                    </div>  
+                </div>
+
+                <div class="col p-3">
+                    <div class="card text-center shadow-lg">
+                        <div class="card-body text-center">
+                            <h4 class="card-header bg-primary">Head Coach: </h4>
+                                <img style="width:50%; height:50%" src="/images/grahampotter.webp" alt="Henry" class="card-img-top p-3" style="border: solid black;">
+                            <h4 class="card-footer bg-dark">Graham Potter</h4>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-8 p-4 justify-content-end">
+                        <h1 class="text_bg p-3">Players</h2>
+                        <table class="table bg-primary text-white table-hover table-responsive table-sm">
+                            <thead>
+                                <th scope="col">Shirt No.</th>
+                                <th scope="col" class="text-center">Player Name</th>
+                                <th scope="col" class="text-center">Position</th>
+                            </thead>
+                            <tbody class="bg-white text-dark">
+                                <tr>
+                                    <th scope="row" class="h1 text-center align-middle">1</th>
+                                    <td class="text-center h2"><img src="images/kepa.png" alt="kepa" style=" width: 10%; height: 10%">Kepa Arrizabalaga</td>
+                                    <td class="text-center h2 align-middle">GK</td>
+                                </tr>
+                                <tr>
+                                    <th scope="row" class="h1 text-center align-middle">6</th>
+                                    <td class="text-center h2"><img src="images/silva.png" alt="silva" style=" width: 10%; height: 10%">Thiago Silva</td>
+                                    <td class="text-center h2 align-middle">CB</td>
+                                </tr>
+                                <tr>
+                                    <th scope="row" class="h1 text-center align-middle">19</th>
+                                    <td class="text-center h2"><img src="images/mount.png" alt="mount" style=" width: 10%; height: 10%">Mason Mount</td>
+                                    <td class="text-center h2 align-middle">CM</td>
+                                </tr>
+                                <tr>
+                                    <th scope="row" class="h1 text-center align-middle">29</th>
+                                    <td class="text-center h2"><img src="images/havertz.png" alt="kai" style=" width: 10%; height: 10%">Kai Havertz</td>
+                                    <td class="text-center h2 align-middle">ST</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                </div>
+        </div>
+
+        
+    </div>
 
 </body>
 </html>
