@@ -10,17 +10,20 @@
     <link rel="stylesheet" href="css/styles.css">
     <title>Premier League</title>
 </head>
-<body class="bg-image text-white" style="background-image: url(images/background.jpeg); background-size: 100% 100%;">
-    <img src="/images/logo.png" alt="Premier League Logo" id="premlogo">
+<body class="text-white">
 
-    <p></p>
-    <nav class="navbar-default p-1 bg-white justify-content-between text-center" style="">
+    <title>Premier League</title>
+    <section>
+        <div class="trim"><img src="/images/background.jpeg" alt="Background" class="imtip"></div>
+        <img src="/images/logo.png" alt="Premier League Logo" id="premlogo">
+    </section>
 
+    <nav class="navbar-default justify-content-between text-center" style="background-color:rgb(139,0,139); font-size: 25px;">
         <a class="px-3" href="">Home</a>
-        <a class="px-3" href="index.html">Players</a>
+        <a class="px-3" href="index.html" >Players</a>
 
         <div class="dropdown">
-            <a class="px-3" style="font-weight:bold" href="">Teams</a>
+            <a class="px-3" style="font-weight:bold" href="teams.html">Teams</a>
             <div class="dropdown_content">
                 <a href="#">Arsenal FC</a>
                 <a href="chelsea.html">Chelsea FC</a>
@@ -30,90 +33,68 @@
                 <a href="#">Tottenham Hotspur FC</a>
             </div>
         </div>
+
         <a class="px-3" href="">Help</a>
+
     </nav>
-
-    <p></p>
-    <p></p>
-
-    <h1 class="text-center bg-dark py-3 d-flex justify-content-center" style="width:500px; margin-left:auto; margin-right:auto; margin-top:20px">The Top 6</h1>
+    
+    <h1>The Top 6</h1>
 
     <div class="container">
         <div class="row px-5 py-2">
-            <div class="card shadow-lg d-block">
-                <img src="images/arsenal.png" alt="arsenal" style="width:25%">
-                <h1 class="d-inline-block text-dark">Arsenal Football Club</h1>
-                <ul class="d-inline-block text-dark align-center">
-                    <li class="h3"><i class="bi bi-house"></i> Emirates Stadium</li>
-                    <li class="h3">Official Website: <a class="text-primary h3" href="https://www.arsenal.com"> www.arsenal.com</a></li>
-                </ul>
-                
+            <div class="card shadow-lg d-block" style="background-image: url(/images/emirates.jpg); background-size: cover; position: relative;  height: 200px;">
+                <img class="p-3" src="images/arsenal.png" alt="arsenal" style="width:25%">
+            <h1 class="d-inline" style="text-decoration:none;">Arsenal FC</h1>
+            <h3 class="stadiums_text d-flex" style="float:right;"><i class="bi bi-house px-2"></i>Emirates Stadium</h3>
+            <h3 class="stadiums_text d-flex" style="position:absolute; bottom:0; right:10px">Official Website: <a class="text-primary h3" href="https://www.arsenal.com"> www.arsenal.com</a></h3>
             </div>
-            
-        </div>
-        <div class="row px-5 py-2">
-            <div class="card shadow-lg d-block">
-                <img src="images/chelsea.png" alt="chelsea" style="width:25%">
-                <h1 class="d-inline-block text-dark">Chelsea Football Club</h1>
-                <ul class="d-inline-block text-dark align-center">
-                    <li class="h3"><i class="bi bi-house"></i> Stamford Bridge</li>
-                    <li class="h3">Official Website: <a class="text-primary h3" href="https://www.chelseafc.com"> www.chelseafc.com</a></li>
-                </ul>
-            </div>
-        </div>
-        <div class="row px-5 py-2">
-            <div class="card shadow-lg d-block">
-                <img src="images/liverpool.png" alt="liverpool" style="width:25%">
-                <h1 class="d-inline-block text-dark">Liverpool FC</h1>
-                <ul class="d-inline-block text-dark align-center">
-                    <li class="h3"><i class="bi bi-house"></i> Anfield</li>
-                    <li class="h3">Official Website: <a class="text-primary h3" href="https://www.liverpoolfc.com"> www.liverpoolfc.com</a></li>
-                </ul>
-
-            </div>
-            
         </div>
 
         <div class="row px-5 py-2">
-            <div class="card shadow-lg d-block">
-                <img src="images/city.png" alt="city" style="width:25%">
-                <h1 class="d-inline-block text-dark">Manchester City FC</h1>
-                <ul class="d-inline-block text-dark align-center">
-                    <li class="h3"><i class="bi bi-house"></i> Anfield</li>
-                    <li class="h3">Official Website: <a class="text-primary h3" href="https://www.mancity.com"> www.mancity.com</a></li>
-                </ul>
-
+            <div class="card shadow-lg d-block" style="background-image: url(/images/stamfordbridge.jpg); background-size: cover; position: relative;  height: 200px;">
+                <img class="p-3" src="images/chelsea.png" alt="Chelsea" style="width:25%">
+            <h1 class="d-inline" style="text-decoration:none;">Chelsea FC</h1>
+            <h3 class="stadiums_text d-flex" style="float:right;"><i class="bi bi-house px-2"></i>Stamford Bridge</h3>
+            <h3 class="stadiums_text d-flex" style="position:absolute; bottom:0; right:10px">Official Website: <a class="text-primary h3" href="https://www.chelseafc.com"> www.chelseafc.com</a></h3>
             </div>
-            
         </div>
 
         <div class="row px-5 py-2">
-            <div class="card shadow-lg d-block">
-                <img src="images/united.png" alt="MU" style="width:25%">
-                <h1 class="d-inline-block text-dark">Manchester United FC</h1>
-                <ul class="d-inline-block text-dark align-center">
-                    <li class="h3"><i class="bi bi-house"></i> Old Trafford</li>
-                    <li class="h3">Official Website: <a class="text-primary h3" href="https://www.manutd.com"> www.manutd.com</a></li>
-                </ul>
-
+            <div class="card shadow-lg d-block" style="background-image: url(/images/anfield.jpg); background-size: cover;  height: 200px;">
+                <img class="p-3" src="images/liverpool.png" alt="Liverpool" style="width:25%">
+            <h1 class="d-inline" style="text-decoration:none;">Liverpool FC</h1>
+            <h3 class="stadiums_text d-flex" style="float:right;"><i class="bi bi-house px-2"></i>Anfield</h3>
+            <h3 class="stadiums_text d-flex" style="position:absolute; bottom:0; right:10px">Official Website: <a class="text-primary h3" href="https://www.liverpoolfc.com"> www.liverpoolfc.com</a></h3>
             </div>
-            
         </div>
 
         <div class="row px-5 py-2">
-            <div class="card shadow-lg d-block">
-                <img src="images/spurs.png" alt="spurs" style="width:25%">
-                <h1 class="d-inline-block text-dark">Tottenham Hotspur FC</h1>
-                <ul class="d-inline-block text-dark align-center">
-                    <li class="h3"><i class="bi bi-house"></i> Tottenham Hotspur Stadium</li>
-                    <li class="h3">Official Website: <a class="text-primary h3" href="https://www.tottenhamhotspur.com"> www.thfc.com</a></li>
-                </ul>
-
+            <div class="card shadow-lg d-block" style="background-image: url(/images/etihad.png); background-size: cover;  height: 200px;">
+                <img class="p-3" src="images/city.png" alt="city" style="width:25%">
+            <h1 class="d-inline" style="text-decoration:none;">Manchester City FC</h1>
+            <h3 class="stadiums_text d-flex" style="float:right;"><i class="bi bi-house px-2"></i>Etihad</h3>
+            <h3 class="stadiums_text d-flex" style="position:absolute; bottom:0; right:10px">Official Website: <a class="text-primary h3" href="https://www.mancity.com"> www.mancity.com</a></h3>
             </div>
-            
         </div>
 
-        
+        <div class="row px-5 py-2">
+            <div class="card shadow-lg d-block" style="background-image: url(/images/oldtrafford.jpg); background-size: cover;  height: 200px;">
+                <img class="p-3" src="images/united.png" alt="united" style="width:25%">
+            <h1 class="d-inline" style="text-decoration:none;">Manchester United FC</h1>
+            <h3 class="stadiums_text d-flex" style="float:right;"><i class="bi bi-house px-2"></i>Old Trafford</h3>
+            <h3 class="stadiums_text d-flex" style="position:absolute; bottom:0; right:10px">Official Website: <a class="text-primary h3" href="https://www.manutd.com"> www.manutd.com</a></h3>
+            </div>
+        </div>
+
+        <div class="row px-5 py-2">
+            <div class="card shadow-lg d-block" style="background-image: url(/images/tottenhamstadium.jpg); background-size: cover;  height: 200px;">
+                <img class="p-3" src="images/spurs.png" alt="spurs_stadium" style="width:25%">
+            <h1 class="d-inline" style="text-decoration:none;">Tottenham Hotspur FC</h1>
+            <h3 class="stadiums_text d-flex" style="position:absolute; top: 0; right:10px"><i class="bi bi-house px-2"></i>Tottenham Hotspur Stadium</h3>
+            <h3 class="stadiums_text d-flex" style="position:absolute; bottom:0; right:10px">Official Website: <a class="text-primary h3" href="https://www.thfc.com"> www.thfc.com</a></h3>
+            </div>
+        </div>
+
     </div>
 
 </body>
